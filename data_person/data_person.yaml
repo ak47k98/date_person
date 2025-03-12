@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: ../data_circle/images/
+train: /home/ak47k98/class home for team/2024-winter-vacation-task/yolov5-master/data_person/images/train
+#val: ../date_circle/images/
+val:  /home/ak47k98/class home for team/2024-winter-vacation-task/yolov5-master/data_person/images/val
+# number of classes
+nc : 1
+
+# class names
+names : ['person']
